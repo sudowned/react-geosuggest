@@ -213,7 +213,13 @@ class Geosuggest extends React.Component {
       return;
     }
 
-    ['location', 'radius', 'bounds', 'types'].forEach(option => {
+    [
+        'location',
+        'radius',
+        'bounds',
+        'types',
+        'sessionToken',
+    ].forEach(option => {
       if (this.props[option]) {
         options[option] = this.props[option];
       }

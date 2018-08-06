@@ -42,5 +42,6 @@ export default {
   ignoreEnter: PropTypes.bool,
   label: PropTypes.string,
   autoComplete: PropTypes.string,
-  minLength: PropTypes.number
+  minLength: PropTypes.number,
+  sessionToken: PropTypes.object
 };
